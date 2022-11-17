@@ -104,9 +104,9 @@
         <thead class="">
           <tr>
             <th>ID</th>
-            <th>Nombre</th>
-            <th>Dias</th>
-            <th>Horario</th>
+            <th>Usuario</th>
+            <th>contraseña</th>
+            <th>Plataforma</th>
           </tr>
         </thead>
         <tbody id="data"></tbody>
@@ -120,7 +120,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script>
-      let url = "https://xfrancool.github.io/alumnos.json";
+      let url = "https://xfrancool.github.io/base.json";
       fetch(url)
         .then((response) => response.json())
         .then((data) => mostrarData(data))
@@ -130,7 +130,7 @@
         console.log(data);
         let body = "";
         for (var i = 0; i < data.length; i++) {
-          body += `<tr><td>${data[i].ID}</td><td>${data[i].Nombre}</td><td>${data[i].Dias}</td><td>${data[i].Horario}</td></tr>`;
+          body += `<tr><td>${data[i].id}</td><td>${data[i].user}</td><td>${data[i].pass}</td><td>${data[i].plataforma}</td></tr>`;
         }
         document.getElementById("data").innerHTML = body;
         //console.log(body)
