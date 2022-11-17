@@ -1,10 +1,10 @@
 const footer = [
   {
     id: 1,
-    urlsocial1: "#",
-    urlsocial2: "#",
-    urlsocial3: "#",
-    urlsocial4: "#",
+    urlsocial1: "https://portafolio-jobs.netlify.app/",
+    urlsocial2: "https://www.instagram.com/franco.ortega2/?hl=es",
+    urlsocial3: "https://www.facebook.com/franco.ortega2/",
+    urlsocial4: "https://www.linkedin.com/in/franco-ortega-9148b617a/",
     urlsocial5:
       "https://api.whatsapp.com/send?phone=+5493513532478&text=Hola, queria consultarte sobre un inconveniente con la página..",
   },
@@ -30,8 +30,7 @@ href="${footer.urlsocial5}"  target="_blank"
 ><i class="fab fa-whatsapp" aria-hidden="true" id=""></i
 ></a> 
 <a href="${footer.urlsocial4}"  target="_blank"
-><i class="fa fa-globe" id=""></i
-></a>
+><i class="fab fa-linkedin" aria-hidden="true"></i></a>
 </div>
  
 `;
