@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  min-height: 600px;
+  padding: 80px 0;
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  background-color: #a3bded;
+  background-repeat: no-repeat;
+
+  display: flex;
+}
+
+.main {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.472),
+    rgba(255, 255, 255, 0.365)
+  );
+  overflow: hidden;
+  padding: 0.7em;
+  border-radius: 1em;
+
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 0.6em;
+
+  animation: mostrar 1.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes mostrar {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.main__figure {
+  overflow: hidden;
+  border-radius: 2em;
+  background-color: black;
+  display: flex;
+  height: 460px;
+}
+
+.main__img {
+  margin: auto;
+  width: 90%;
+  max-width: 70vw;
+  border-radius: 10px;
+}
+
+.main__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 3em 0.7em;
+  text-align: center;
+}
+
+.main__form {
+  display: grid;
+  justify-items: center;
+  gap: 1.5em;
+}
+
+.main__input {
+  width: 80%;
+  max-width: 500px;
+  outline: none;
+  border: none;
+  padding: 1em;
+  font: inherit;
+  border-radius: 0.6em;
+}
+.input:focus,
+input:valid {
+  outline: none;
+  border: 1.5px solid #1a73e8;
+}
+
+/* 
+.main__input--send {
+  background-color: #dc3f31;
+  color: #fff;
+  font-weight: 600;
+}
+.main__input--send:hover {
+  background-color: #1a9a47;
+  transition: 1s;
+} */
+.main__title {
+  font-size: 2.3rem;
+}
+
+.main__paragraph {
+  margin: 0.3em 0;
+}
+
+.main__social {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  grid-auto-columns: max-content;
+  gap: 1em;
+}
+
+.main__link {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.6em 1.5em;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 15px;
+}
+
+.main__link:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.main__icon {
+  width: 35px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .main__img {
+    margin: auto;
+    width: 100%;
+    max-width: 82vw;
+  }
+
+  .main__figure {
+    background-color: #6991c7;
+    height: 245px;
+  }
+  .main__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .main {
+    margin: auto;
+    width: 95%;
+    max-width: 1000px;
+  }
+  .main__contact {
+    padding: 2em;
+  }
+  /* .main__input--send:hover {
+    background-color: #1a9a47;
+  }
+ */
+  .main__social {
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
+
+/* Boton */
+/* From uiverse.io by @adamgiebl */
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.class2:hover {
+  background-color: red;
+}
+.class1:hover {
+  background-color: #1a9a47;
+}
+
+button span {
+  display: block;
+  margin-left: 0.54em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(3.3em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(8em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+#registro {
+  text-decoration: none;
+  color: rgb(8, 6, 112);
+  line-height: bold;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+footer {
+  font-weight: bold;
+}
+
+/*************/

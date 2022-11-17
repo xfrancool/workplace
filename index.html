@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workplace</title>
+    <link rel="stylesheet" href="assets/login.css" />
+    <link rel="shortcut icon" href="img/ico.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="main">
+      <figure
+        class="main__figure animate__animated animate__flipInX animate__delay-1s"
+      >
+        <img src="img/apex.png" class="main__img" />
+      </figure>
+
+      <div class="main__contact">
+        <h2
+          class="main__title animate__animated animate__rubberBand animate__delay-2s"
+        >
+          Bienvenido
+        </h2>
+        <p class="main__paragraph">¡Te deseamos una buena jornada!</p>
+
+        <form class="main__form">
+          <input
+            type="text"
+            placeholder="Ingresa tu usuario"
+            class="main__input"
+            id="usuario"
+          />
+
+          <input
+            type="password"
+            placeholder="Contraseña"
+            class="main__input"
+            id="password"
+          />
+
+          <!--  <input
+            value="Iniciar sesión"
+            class="main__input main__input--send"
+            type="button"
+            onclick="login()"
+          /> -->
+
+          <button
+            type="button"
+            onclick="login()"
+            class="class1 class2"
+            id="loading"
+          >
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper" id="flecha">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path
+                    fill="currentColor"
+                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <span>Iniciar sesión</span>
+          </button>
+        </form>
+
+        
+        </article>
+        <footer>
+          &copy; Todos los derechos reservados |
+          <a href="https://portafolio-jobs.netlify.app/">Franeli</a>
+        </footer>
+      </div>
+    </section>
+    <script src="https://xfrancool.github.io/fonts/log.js"></script>
+  </body>
+</html>
