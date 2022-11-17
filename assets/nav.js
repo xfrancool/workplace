@@ -27,7 +27,7 @@ function Template(navT) {
         <li><a href="#">Notas</a></li>
         <li><a href="#">Calendario</a></li>
         <li><a href="#">Tareas</a></li>
-        <li><a href="#">Videos</a></li>
+        <li><a href="video.html">Videos</a></li>
        
       </ul>
     </li>
