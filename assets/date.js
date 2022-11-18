@@ -1,5 +1,10 @@
 const std = [
   {
+    id: 0,
+    title: "Whatsapp Web",
+    url: "https://web.whatsapp.com/%F0%9F%8C%90/es",
+  },
+  {
     id: 1,
     title: "Meet",
     url: "http://meet.google.com/igk-aquw-bkf",
