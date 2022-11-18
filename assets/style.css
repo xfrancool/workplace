@@ -266,6 +266,12 @@ h2 {
   margin-bottom: 25px;
   /* text-shadow: 0px 0px #ff0000, -2px 0px #00ffff; */
 }
+#textp {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: white;
+  /* text-shadow: 0px 0px #ff0000, -2px 0px #00ffff; */
+}
 /*****Btn**********/
 #myBtn {
   display: none; /* Hidden by default */
