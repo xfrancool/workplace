@@ -16,7 +16,7 @@ const std = [
   },
   {
     id: 3,
-    title: "Email",
+    title: "E-memo",
     url: "https://mail.apexamerica.com/",
   },
   {
