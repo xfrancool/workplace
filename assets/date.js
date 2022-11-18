@@ -31,12 +31,12 @@ const std = [
   },
   {
     id: 6,
-    title: "Diagramas (Tools) ",
+    title: "Diagramas --> Tools",
     url: "https://app.diagrams.net/",
   },
   {
     id: 7,
-    title: "Notion (Tools)",
+    title: "Notion --> Tools",
     url: "https://www.notion.so/",
   },
 ];
