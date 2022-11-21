@@ -1,7 +1,7 @@
 const footer = [
   {
     id: 1,
-    urlsocial1: "https://portafolio-jobs.netlify.app/",
+    urlsocial1: "https://react-portafolio16.netlify.app/",
     urlsocial2: "https://www.instagram.com/franco.ortega2/?hl=es",
     urlsocial3: "https://www.facebook.com/franco.ortega2/",
     urlsocial4: "https://www.linkedin.com/in/franco-ortega-9148b617a/",
