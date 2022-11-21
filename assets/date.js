@@ -44,6 +44,11 @@ const std = [
     title: "Generar contraseña --> Tools",
     url: "https://password-generator96.netlify.app/",
   },
+  {
+    id: 8,
+    title: "Drive",
+    url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
+  },
 ];
 
 function Template(std) {
