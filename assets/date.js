@@ -39,6 +39,11 @@ const std = [
     title: "Notion --> Tools",
     url: "https://www.notion.so/",
   },
+  {
+    id: 8,
+    title: "Generar contraseña --> Tools",
+    url: "https://password-generator96.netlify.app/",
+  },
 ];
 
 function Template(std) {
