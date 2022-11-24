@@ -15,6 +15,11 @@ const std = [
     url: "https://apex.wayfromhome.cx/",
   },
   {
+    id: 5,
+    title: "Trainer",
+    url: "https://trainer.telecom.com.ar/",
+  },
+  {
     id: 3,
     title: "E-memo",
     url: "https://mail.apexamerica.com/",
@@ -23,11 +28,6 @@ const std = [
     id: 4,
     title: "Base",
     url: "https://basedeconocimientos.custhelp.com/",
-  },
-  {
-    id: 5,
-    title: "Trainer",
-    url: "https://trainer.telecom.com.ar/",
   },
 
   {
