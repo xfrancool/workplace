@@ -3,13 +3,11 @@ const std = [
     id: 0,
     title: "Whatsapp Web",
     url: "https://web.whatsapp.com/%F0%9F%8C%90/es",
-    img: "https://xfrancool.github.io/imgweb/wt.png",
   },
   {
     id: 1,
     title: "Meet",
     url: "http://meet.google.com/igk-aquw-bkf",
-    img: "https://xfrancool.github.io/imgweb/meet.png",
   },
   {
     id: 2,
@@ -51,8 +49,7 @@ function Template(std) {
     
   
     <p class="parrafocard">
-        <h3 id="date">${std.title}<img src="${std.img}" alt="" class="logoh"
-        /></h3> 
+        <h3 >${std.title}</h3> 
       
 
        
