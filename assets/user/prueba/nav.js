@@ -5,7 +5,7 @@ const navT = [
 ];
 
 function Template(navT) {
-  const name = "inicio";
+  const name = "prueba";
   return `
   <nav id="menu">
   <input
@@ -20,21 +20,13 @@ function Template(navT) {
       
     </li>
 
-    <li>
-      <a class="dropdown-arrow" href="#">Material de estudio</a>
-      <ul class="sub-menus">
-        <li><a href="#">Tips</a></li>
-        <li><a href="#">Notas</a></li>
-        <li><a href="#">Calendario</a></li>
-        <li><a href="#">Tareas</a></li>
-        <li><a href="video.html">Videos</a></li>
-       
-      </ul>
-    </li>
-    <li>
-    <a  href="../index.html">Cerrar Sesión 🔐</a>
     
-  </li>
+
+    <li>
+      <a  href="../../../index.html">Cerrar Sesión 🔐</a>
+      
+    </li>
+   
   </ul>
 </nav> 
   `;
