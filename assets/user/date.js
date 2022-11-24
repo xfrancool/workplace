@@ -15,30 +15,25 @@ const std = [
     url: "https://apex.wayfromhome.cx/",
   },
   {
-    id: 5,
+    id: 3,
     title: "Trainer",
     url: "https://trainer.telecom.com.ar/",
   },
   {
-    id: 3,
+    id: 4,
     title: "E-memo",
     url: "https://mail.apexamerica.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Base",
     url: "https://basedeconocimientos.custhelp.com/",
   },
 
   {
-    id: 8,
+    id: 6,
     title: "Generar contraseña --> Tools",
     url: "https://password-generator96.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Drive",
-    url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
   },
 ];
 
