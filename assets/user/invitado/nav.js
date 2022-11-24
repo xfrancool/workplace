@@ -5,7 +5,7 @@ const navT = [
 ];
 
 function Template(navT) {
-  const name = "prueba";
+  const name = "invitado";
   return `
   <nav id="menu">
   <input
