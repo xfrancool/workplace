@@ -58,7 +58,7 @@ function Template(std) {
    <span class="circle" aria-hidden="true">
    <span class="icon arrow"></span>
    </span>
-   <span class="button-text">Click aquí</span> 
+   <span class="button-text">Ingresar</span> 
    </button></a>
 
     </p>
