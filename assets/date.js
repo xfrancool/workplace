@@ -50,9 +50,9 @@ const std = [
     url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
   },
   {
-    id: 8,
-    title: "Drive",
-    url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
+    id: 9,
+    title: "Mecanografía",
+    url: "https://10fastfingers.com/typing-test/spanish",
   },
 ];
 
