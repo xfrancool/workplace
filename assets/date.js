@@ -62,26 +62,21 @@ function Template(std) {
 
 
 
-        
-    <div class="card animate__animated animate__pulse animate__delay-4s" id=""> <div class="textcard">
-
-    
-  
+  <div class="card animate__animated animate__pulse animate__delay-4s" id="">
+  <div class="textcard">
     <p class="parrafocard">
-        <h3>${std.title}</h3>
-      
-
-       
-
-   <a href="${std.url}" target="_blank"><button class="learn-more" id="btn-more">   
-   <span class="circle" aria-hidden="true">
-   <span class="icon arrow"></span>
-   </span>
-   <span class="button-text">Click aquí</span> 
-   </button></a>
-
+    <h3>${std.title}</h3>
+    <a href="${std.url}" target="_blank">
+      <button class="learn-more" id="btn-more">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Click aquí</span>
+      </button>
+    </a>
     </p>
-  </div></div>
+  </div>
+</div>
     
     
       `;
