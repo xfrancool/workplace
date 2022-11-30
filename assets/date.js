@@ -40,6 +40,11 @@ const std = [
     url: "https://www.notion.so/",
   },
   {
+    id: 9,
+    title: "Mecanografía",
+    url: "https://10fastfingers.com/typing-test/spanish",
+  },
+  {
     id: 8,
     title: "Generar contraseña --> Tools",
     url: "https://password-generator96.netlify.app/",
@@ -48,11 +53,6 @@ const std = [
     id: 8,
     title: "Drive",
     url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
-  },
-  {
-    id: 9,
-    title: "Mecanografía",
-    url: "https://10fastfingers.com/typing-test/spanish",
   },
 ];
 
