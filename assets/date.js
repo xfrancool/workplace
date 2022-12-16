@@ -4,11 +4,7 @@ const std = [
     title: "Whatsapp Web",
     url: "https://web.whatsapp.com/%F0%9F%8C%90/es",
   },
-  {
-    id: 1,
-    title: "Meet",
-    url: "http://meet.google.com/igk-aquw-bkf",
-  },
+
   {
     id: 2,
     title: "Way",
@@ -16,14 +12,14 @@ const std = [
   },
   {
     id: 3,
-    title: "E-memo",
+    title: "E-mail Apex",
     url: "https://mail.apexamerica.com/",
   },
-  {
+  /* {
     id: 4,
     title: "Base",
     url: "https://basedeconocimientos.custhelp.com/",
-  },
+  }, */
   {
     id: 5,
     title: "Trainer",
@@ -49,8 +45,13 @@ const std = [
     title: "Generar contraseña --> Tools",
     url: "https://password-generator96.netlify.app/",
   },
+  /*  {
+    id: 9,
+    title: "Medios de contacto",
+    url: "https://telecom-contacto.netlify.app/",
+  }, */
   {
-    id: 8,
+    id: 10,
     title: "Drive",
     url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
   },
