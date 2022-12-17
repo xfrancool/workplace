@@ -45,11 +45,11 @@ const std = [
     title: "Generar contraseña --> Tools",
     url: "https://password-generator96.netlify.app/",
   },
-  /*  {
+  {
     id: 9,
-    title: "Medios de contacto",
-    url: "https://telecom-contacto.netlify.app/",
-  }, */
+    title: "Tabulaciones",
+    url: "https://tabulaciones.netlify.app/",
+  },
   {
     id: 10,
     title: "Drive",
