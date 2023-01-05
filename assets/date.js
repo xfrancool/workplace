@@ -52,6 +52,11 @@ const std = [
   },
   {
     id: 10,
+    title: "Calc. Wondersoft",
+    url: "https://generar-planilla2.netlify.app/",
+  },
+  {
+    id: 11,
     title: "Drive",
     url: "https://drive.google.com/drive/folders/1hhpyZakZxtsl5DyqSlVIN7VMxkIYQFhk?usp=sharing",
   },
